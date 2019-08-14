@@ -66,16 +66,16 @@ MonoBehaviour:
   turnSpeed: 15
   shootRange: 200
   shootCooldown: 0.5
-  color: RGBA(0, 0, 255, 255)
-  towerID: 715725
+  color: RGBA(128, 0, 1, 255)
+  towerID: 684954
   shotOffset: 19
-  col: {r: 0, g: 0, b: 1, a: 1}
+  col: {r: 0.5019608, g: 0, b: 0.003921569, a: 1}
   isTower: 1
   bulletDamage: 0
-  ZoneSize: 1
+  ZoneSize: 1.25
   timeMultiplier: 0.39
   age: 20
-  inTeamMode: 1
+  inTeamMode: 0
 --- !u!212 &54
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -114,7 +114,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 1
   m_Sprite: {fileID: 21300000, guid: 42c9d87b94c50624a9e01c30b1a82df4, type: 3}
-  m_Color: {r: 0, g: 0, b: 1, a: 1}
+  m_Color: {r: 0.5019608, g: 0, b: 0.003921569, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
